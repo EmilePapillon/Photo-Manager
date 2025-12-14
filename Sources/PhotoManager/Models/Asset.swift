@@ -1,7 +1,7 @@
 import Foundation
 import SwiftUI
 
-struct Asset: Identifiable, Hashable {
+struct Asset: Identifiable {
     enum Status: String {
         case available
         case missing

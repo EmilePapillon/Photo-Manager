@@ -23,8 +23,3 @@ struct ContentView: View {
         .toolbar(removing: .sidebarToggle)
     }
 }
-
-#Preview {
-    ContentView()
-        .environmentObject(LibraryViewModel())
-}

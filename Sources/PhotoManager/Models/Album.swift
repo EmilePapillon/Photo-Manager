@@ -7,7 +7,7 @@ struct Album: Identifiable, Hashable {
 }
 
 struct SmartAlbumRule: Identifiable, Hashable {
-    enum Field {
+    enum Field: Hashable {
         case rating(min: Int)
         case keyword(String)
         case aiLabel(String)
